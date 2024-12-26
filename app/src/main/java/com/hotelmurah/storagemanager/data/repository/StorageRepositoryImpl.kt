@@ -1,5 +1,47 @@
 package com.hotelmurah.storagemanager.data.repository
 
+/**
+ * Implementation of StorageRepository that handles all file system operations.
+ *
+ * Core Features:
+ * 1. Storage Analysis
+ *    - Scans internal and external storage
+ *    - Uses MediaStore API for media files
+ *    - Categorizes files by type
+ *    - Calculates storage statistics
+ *
+ * 2. File Management
+ *    - Safe file operations
+ *    - Permission handling
+ *    - Progress tracking
+ *    - Error reporting
+ *
+ * 3. Cache Management
+ *    - App cache monitoring
+ *    - Large cache detection
+ *    - Safe cache cleaning
+ *    - Usage notifications
+ *
+ * 4. Duplicate Detection
+ *    - Size-based grouping
+ *    - Name pattern analysis
+ *    - MD5 verification
+ *    - Memory optimization
+ *
+ * Performance Optimizations:
+ * - Coroutines for async operations
+ * - Batch processing for large dirs
+ * - Memory-efficient algorithms
+ * - Caching of scan results
+ * - Excluded folder support
+ *
+ * Integration with Android Framework:
+ * - MediaStore API for media scanning
+ * - Storage Access Framework
+ * - Notification system
+ * - File provider support
+ */
+
 import android.content.Context
 import android.os.Environment
 import android.os.StatFs

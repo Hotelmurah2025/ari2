@@ -2,4 +2,39 @@
     <string name="app_name">Storage Manager</string>
     <string name="channel_name">Storage Manager Notifications</string>
     <string name="channel_description">Notifications about storage usage and cache files</string>
+    
+    <!-- Main Activity -->
+    <string name="storage_usage">Storage Usage</string>
+    <string name="storage_by_category">Storage by Category</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="scan_storage">Scan Storage</string>
+    <string name="clean_cache">Clean Cache</string>
+    <string name="find_duplicates">Find Duplicates</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Storage Categories -->
+    <string name="category_images">Images</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_documents">Documents</string>
+    <string name="category_apps">Apps</string>
+    <string name="category_archives">Archives</string>
+    <string name="category_others">Others</string>
+    
+    <!-- Settings -->
+    <string name="excluded_folders">Excluded Folders</string>
+    <string name="add_excluded_folder">Add Folder</string>
+    <string name="auto_cleanup">Automatic Cleanup</string>
+    <string name="enable_auto_cleanup">Enable automatic cleanup</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Delete Files</string>
+    <string name="dialog_delete_message">Are you sure you want to delete the selected files?</string>
+    <string name="dialog_delete_confirm">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <!-- Messages -->
+    <string name="msg_scanning">Scanning storage…</string>
+    <string name="msg_space_freed">%1$s freed</string>
+    <string name="msg_no_duplicates">No duplicate files found</string>
 </resources>
