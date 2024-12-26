@@ -4,7 +4,8 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.hotelmurah.storagemanager.data.local.entity.FileEntity
 
-@Database(entities = [FileEntity::class], version = 1)
+@Database(entities = [FileEntity::class, ExcludedFolder::class], version = 1)
 abstract class StorageDatabase : RoomDatabase() {
     abstract fun fileDao(): FileDao
+    abstract fun excludedFolderDao(): ExcludedFolderDao
 }
